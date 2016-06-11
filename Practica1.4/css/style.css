@@ -1,0 +1,38 @@
+header {
+	text-align: center;
+}
+
+main {
+	padding: 25px;
+}
+
+section {
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.img2 {
+	width: 100%;
+}
+
+aside {
+	float: right;
+	width: 45%;
+	margin-left: 5px;
+}
+
+.img1 {
+	width: 100%;
+	float: right;
+}
+
+.left {
+	float: left;
+	width: 50%;
+}
+
+footer {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
