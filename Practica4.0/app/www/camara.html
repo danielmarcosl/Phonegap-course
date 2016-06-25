@@ -1,0 +1,39 @@
+<!-- contenedor principal -->
+	<div data-role="page" id="pageone" data-theme="b">
+		<!-- header -->
+		<div data-role="header" data-position="fixed">
+			<a href="#myPanelFixed" class="ui-btn ui-btn-left ui-icon-bars ui-btn-icon-notext ui-shadow ui-corner-all" role="button"></a>
+			<h1>Inicio</h1>
+		</div>
+		<div data-role="panel" id="myPanelFixed" data-position-fixed="true">
+			<h2>Menú</h2>
+			<ul data-role="listview" data-inset="true">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="camara.html">Cámara</a></li>
+				<li><a href="connect.html">Conexiones</a></li>
+				<li><a href="location.html">Geolocalización</a></li>
+				<li><a href="acelerometro.html">Acelerómetro</a></li>
+				<li><a href="files.html">Archivos</a></li>
+				<li><a href="" data-rel="close">Cerrar</a></li>
+			</ul>
+		</div>
+		<!-- contenedor de vistas -->
+		<div data-role="main" class="ui-content">
+			<div class="ui-grid-b">
+				<div class="ui-block-a">
+					
+				</div>
+				<div class="ui-block-b">
+					<button onclick="tomarFoto()" class="ui-btn ui-btn-icon-text ui-shadow ui-corner-all ui-btn-icon-notext ui-icon-camera" role="button" style="text-align:center;margin:auto;"></button>
+				</div>
+				<div class="ui-block-c">
+					
+				</div>
+			</div>
+			<img id="myImage" class="foto_miniatura">
+		</div>
+		<!-- footer -->
+		<div data-role="footer" data-position="fixed">
+			<h1>Copyright &copy; 2016</h1>
+		</div>
+	</div>

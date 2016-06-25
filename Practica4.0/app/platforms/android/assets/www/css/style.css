@@ -1,0 +1,38 @@
+.user_main_img{
+	border-radius: 100%;
+	width: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+.dev_info label{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.foto_miniatura{
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+.conexion{
+	margin-top: 3px;
+}
+
+.motion_list ul {
+    padding: 0;
+}
+
+.motion_list li {
+    display: inline;
+}
+
+#geolocation{
+	margin-top: 3%;
+}
+
+h2{
+	text-align: center;
+	color: #060;
+}

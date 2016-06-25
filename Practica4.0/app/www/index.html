@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>JQuery Mobile</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="cordova.js"></script>
+</head>
+<body>
+	<!-- contenedor principal -->
+	<div data-role="page" id="pageone" data-theme="b">
+		<!-- header -->
+		<div data-role="header" data-position="fixed">
+			<a href="#myPanelFixed" class="ui-btn ui-btn-left ui-icon-bars ui-btn-icon-notext ui-shadow ui-corner-all" role="button"></a>
+			<h1>Inicio</h1>
+		</div>
+		<div data-role="panel" id="myPanelFixed" data-position-fixed="true">
+			<h2>Menú</h2>
+			<ul data-role="listview" data-inset="true">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="camara.html">Cámara</a></li>
+				<li><a href="connect.html">Conexiones</a></li>
+				<li><a href="location.html">Geolocalización</a></li>
+				<li><a href="acelerometro.html">Acelerómetro</a></li>
+				<li><a href="files.html">Archivos</a></li>
+				<li><a href="" data-rel="close">Cerrar</a></li>
+			</ul>
+		</div>
+		<!-- contenedor de vistas -->
+		<div data-role="main" class="ui-content">
+			<div class="ui-grid-b">
+				<div class="ui-block-a">
+					
+				</div>
+				<div class="ui-block-b">
+					<img src="img/user.png" class="user_main_img">
+				</div>
+				<div class="ui-block-c">
+					
+				</div>
+			</div>
+			<div class="ui-grid-b">
+				<div class="ui-block-a">
+					
+				</div>
+				<div class="ui-block-b dev_info">
+					<label><strong>Desarrollador</strong></label>
+					<label>Daniel Marcos</label>
+					<label><strong>Empresa</strong></label>
+					<label>Serem</label>
+				</div>
+				<div class="ui-block-c">
+					
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<div data-role="footer" data-position="fixed">
+			<h1>Copyright &copy; 2016</h1>
+		</div>
+	</div>
+	<script src="js/camara.js"></script>
+	<script src="js/connection.js"></script>
+	<script src="js/notification.js"></script>
+	<script src="js/location.js"></script>
+	<script src="js/acelerometro.js"></script>
+	<script src="js/files.js"></script>
+</body>
+</html>
